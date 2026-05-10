@@ -52,6 +52,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="min-h-screen flex items-center justify-center p-6 bg-[#0f0c14]">
+    <nav class="fixed top-0 z-50 flex justify-between items-center w-full px-margin py-4 border-b border-outline-variant bg-surface-container-low/90 backdrop-blur-md">
+        <a href="index.php" class="text-2xl font-black tracking-tighter text-primary uppercase">QuickfitZe</a>
+    </nav>
 
     <div class="max-w-md w-full bg-surface border border-outline-variant p-10 rounded-[2.5rem] shadow-2xl">
         
